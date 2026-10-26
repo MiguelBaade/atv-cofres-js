@@ -37,10 +37,21 @@ function abrirCofre(numeroEscolhido){
     }
 
     mensagemTentativa.textContent = " N° de acertos: " + acertoTentativa + "/N° de tentativas: " + tentativa;
+
+    botaoc1.disabled = true;
+    botaoc2.disabled = true;
+    botaoc3.disabled = true;
 }
 
 botaoJogarNovamente.addEventListener("click", function() {
+    cofrePremiado = Math.floor(Math.random() * 3) + 1;
 
+    mensagemAbriuCofre.textContent = "";
+    mensagemCofrePremiado.textContent = "";
+
+    botaoc1.disabled = false;
+    botaoc2.disabled = false;
+    botaoc3.disabled = false;
 });
 
 /*
