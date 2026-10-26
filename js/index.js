@@ -54,19 +54,14 @@ botaoJogarNovamente.addEventListener("click", function() {
     botaoc3.disabled = false;
 });
 
-/*
-botaoNao.addEventListener("mouseenter", function(){
-    tentativa++;
+botaoc1.addEventListener("mouseenter", function(){
 
-    const largura = arena.clientWidth - botaoNao.offsetWidth;
-    const altura = arena.clientHeight - botaoNao.offsetHeight;
+    const largura = arena.clientWidth - botaoc1.offsetWidth;
+    const altura = arena.clientHeight - botaoc1.offsetHeight;
 
     const x = Math.random() * largura;
     const y = Math.random() * altura;
 
-    botaoNao.style.left = x + 'px';
-    botaoNao.style.top = y + 'px';
-
-    mensagem.textContent = "Tentativas de clicar no Não: " + tentativa;
+    botaoc1.style.left = x + 'px';
+    botaoc1.style.top = y + 'px';
 });
-*/
