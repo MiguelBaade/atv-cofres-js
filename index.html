@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jogo do cofre misterioso</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+</head>
+<body>
+    <h1>O Cofre Misterioso</h1>
+    <p>
+        O jogo funciona da seguinte forma: O jogador escolhe um cofre por rodada, descobre o resultado e pode tentar novamente. Apenas um deles esconde um prêmio.
+    </p>
+
+    <div class="arena" id="arena">
+       <button id="c1">Cofre 1 🔐</button>
+       <button id="c2">Cofre 2 🔐</button>
+       <button id="c3">Cofre 3 🔐</button>
+    </div>
+
+    <h3 id="mensagemAbriuCofre"></h3>
+    <h3 id="mensagemCofrePremiado"></h3>
+    <h3 id="mensagemTentativa"></h3>
+
+
+    <div class="fimDaTela">
+        <button id="jogarNovamente">Jogar novamente!</button>
+    </div>
+
+    <script src='js/index.js'></script>
+</body>
+</html>
